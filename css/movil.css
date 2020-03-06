@@ -16,6 +16,7 @@
     
     .menu{
         padding-top: 5px;
+        z-index: 2;
     }
     
     .menu-bar{
@@ -43,9 +44,9 @@
         background: #131313;
         width: 70%;
         height: 100vh;
-        position: fixed;
+        position: absolute;
         top: 0;
-        z-index: 2;
+        z-index: 10;
         display: flex;
         flex-direction: column;
         font-family: "Open Sans";
@@ -73,24 +74,18 @@
     }
     
     .menu-js-exit{
+        display: none;
         position: absolute;
         width: 30%;
         height: 100vh;
-        left: -100%;
         top: 0;
         font-size: 20px;
-        z-index: 3;
+        z-index: 9;
         text-align: right;
-        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
-        opacity: 0.7;
-        -moz-transition: all ease .5s;
-        -ms-transition: all ease .5s;
-        -webkit-transition: all ease .5s;
-        -o-transition: all ease .5s;
-        transition: all ease .5s;
     }
     
     .menu-js-exit-a{
+        display: block;
         height: 7vh;
         text-decoration: none;
         color: #555f67;
@@ -99,6 +94,7 @@
     }
     
     .show-exit{
+        display: block;
         left: 70%;
         -moz-transition: all ease .5s;
         -ms-transition: all ease .5s;
@@ -114,10 +110,6 @@
         -webkit-transition: all ease .5s;
         -o-transition: all ease .5s;
         transition: all ease .5s;
-    }
-    
-    .blur{
-        filter: blur(3px);
     }
     
     .active{
@@ -179,6 +171,7 @@
         height: 115px;
         position: absolute;
         bottom: 0;
+        z-index: 3;
     }
     
     .social{
@@ -212,6 +205,26 @@
     .thanks-to-a{
         text-decoration: none;
         color: #555f67;
+    }
+    
+    .smooth{
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
+    
+    .blur{
+        height: 100vh;
+        background: black;
+        opacity: 0.5;
+/*        filter: blur(3px);*/
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
     }
 }
 
