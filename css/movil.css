@@ -20,8 +20,10 @@
     }
     
     .menu-bar{
+        padding-top: 5px;
         display: flex;
         justify-content: flex-start;
+        z-index: 8;
     }
     
     .menu-bar-a{
@@ -216,10 +218,10 @@
     }
     
     .blur{
-        height: 100vh;
+        height: 99vh;
         background: black;
         opacity: 0.5;
-/*        filter: blur(3px);*/
+        filter: blur(4px);
         -moz-transition: all ease .5s;
         -ms-transition: all ease .5s;
         -webkit-transition: all ease .5s;
