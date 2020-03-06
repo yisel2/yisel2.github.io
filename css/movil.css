@@ -74,7 +74,7 @@
     
     .menu-js-a{
         width: 100%;
-        height: 7vh;
+        height: 5vh;
         text-decoration: none;
         color: #555f67;
         margin-left: 10%;
@@ -93,7 +93,6 @@
         width: 30%;
         height: 100vh;
         top: 0;
-/*        left: -100%;*/
         font-size: 20px;
         z-index: 3;
         text-align: right;
