@@ -1,0 +1,43 @@
+/* Versión escritorio */
+
+@media(min-width:720px){
+    
+    .mobile{
+        display: none;
+    }
+    
+    .menu{
+        
+    }
+    
+    .menu-icons{
+        position: fixed;
+        background: #131313;
+        height: 100vh;
+        width: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        
+    }
+    
+    .menu-icons-div{
+        color: #555f67;
+        height: 7vh;
+    }
+    
+    .active{
+        opacity: 1;
+        color: #fff;
+    }
+    
+    .container{
+        width: 80%;        
+        padding: 10px 10px;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+    
+}
