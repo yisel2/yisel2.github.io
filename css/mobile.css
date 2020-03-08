@@ -209,14 +209,6 @@
         color: #555f67;
     }
     
-    .smooth{
-        -moz-transition: all ease .5s;
-        -ms-transition: all ease .5s;
-        -webkit-transition: all ease .5s;
-        -o-transition: all ease .5s;
-        transition: all ease .5s;
-    }
-    
     .blur{
         height: 99vh;
         background: black;
