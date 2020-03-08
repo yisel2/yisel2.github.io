@@ -84,12 +84,12 @@
     .banner{
         width: calc(100% - 50px);
         margin-left: 50px;
-        
+        padding-top: 15%;
     }
     
     .container{
         margin-left: 5%;
-        padding-top: 15%;
+        width: 600px;
     }
     
     .display{
@@ -104,7 +104,32 @@
     .subtitle{
         font-weight: 600;
         color: #555f67;
+        font-size: 20px;
     }
     
+    .buttons{
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        display: flex;
+/*        justify-content:flex-start;*/
+        margin-top: 5%;
+    }
     
+    .button-a{
+        display: block;
+        border: 3px solid #28485f;
+        background: #081d2d;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-bottom: 7%;
+        margin-right: 5%;
+        width: 25%;
+    }
 }
