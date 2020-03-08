@@ -7,30 +7,78 @@
     }
     
     .menu{
-        
-    }
-    
-    .menu-icons{
-        position: fixed;
-        background: #131313;
         height: 100vh;
-        width: 5%;
+        background: #131313;
+        width: 50px;
+        position: fixed;
+        font-size: 18px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
+    }
+    
+    .logo{
         text-align: center;
-        font-size: 18px;
-        
+        margin-top: 20px;
+    }
+    
+    .logo-a{
+        text-decoration: none;
+        color: #555f67;
+        font-family: "Open Sans";
+        font-weight: 600;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }    
+    
+    .menu-icons{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
     
     .menu-icons-div{
         color: #555f67;
-        height: 7vh;
+        height: 5vh;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
+    
+    .social{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .social-a{
+        text-decoration: none;
+        color: #555f67;
+        height: 4vh;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
     }
     
     .active{
         opacity: 1;
         color: #fff;
+    }
+    
+    .logo-a:hover, .menu-icons-div:hover, .social-a:hover{
+        color: #fff;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
     }
     
     .container{
