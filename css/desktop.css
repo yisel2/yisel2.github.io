@@ -95,10 +95,12 @@
     .display{
         font-size: 50px;
         font-family: "Open Sans";
+        
     }
     
     .thin{
         font-weight: 400;
+        letter-spacing: -0.03em;
     }
     
     .subtitle{
@@ -131,5 +133,23 @@
         margin-bottom: 7%;
         margin-right: 5%;
         width: 25%;
+    }
+    
+    .thanks-to{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 14px;
+    }
+    
+    .thanks-to p{
+        color: #555f67;
+    }
+    
+    .thanks-to-a{
+        text-decoration: none;
+        color: #555f67;
     }
 }
