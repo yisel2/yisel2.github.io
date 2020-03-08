@@ -82,13 +82,29 @@
     }
     
     .banner{
-        width: 100%;
+        width: calc(100% - 50px);
         margin-left: 50px;
         
     }
     
     .container{
-        padding: 50px;
+        margin-left: 5%;
+        padding-top: 15%;
     }
+    
+    .display{
+        font-size: 50px;
+        font-family: "Open Sans";
+    }
+    
+    .thin{
+        font-weight: 400;
+    }
+    
+    .subtitle{
+        font-weight: 600;
+        color: #555f67;
+    }
+    
     
 }
