@@ -3,13 +3,13 @@ $(document).ready(function(){
         e.preventDefault();
         $("#menu-js").toggleClass("show");
         $("#btn-hide").toggleClass("show-exit");
-        $("#movil").addClass("blur");    
+        $("#mobile").addClass("blur");    
     });
     
     $("#btn-hide").click(function(e){
         e.preventDefault();        
         $("#menu-js").removeClass("show");
         $("#btn-hide").removeClass("show-exit");
-        $("#movil").removeClass("blur");
+        $("#mobile").removeClass("blur");
     });
 });
