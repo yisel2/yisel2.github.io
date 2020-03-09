@@ -1,34 +1,16 @@
 /* Desktop Version */
 @media(min-width:720px){
     
-    body{
+    .portfolio-start{
         background: #1e2327;
-/*        background: #252627;*/
-/*
-        background: -moz-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
-        background: -ms-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
-        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
-        background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
-*/
-    }
-    
-    .banner{
-        width: calc(100% - 50px);
-        margin-left: 50px;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-    
-    .container{
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     
     .display{
         font-size: 50px;
         font-family: "Open Sans";
+        text-align: left;
     }
     
     .tittle{
