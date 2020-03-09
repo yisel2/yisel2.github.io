@@ -1,2 +1,118 @@
 /* Desktop Version */
-
+@media(min-width:720px){
+    
+    body{
+        background: #1e2327;
+/*        background: #252627;*/
+/*
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
+        background: -ms-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
+        background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondo-azul.png") no-repeat 50% 0 fixed;
+*/
+    }
+    
+    .banner{
+        width: calc(100% - 50px);
+        margin-left: 50px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    
+    .display{
+        font-size: 50px;
+        font-family: "Open Sans";
+    }
+    
+    .tittle{
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .tittle h3{        
+/*        color: #131313;*/
+        font-family: "Open Sans";
+    }
+    
+    .tittle h5{
+        color: #7b8a96;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .portfolio{
+        margin-top: 5%;
+    }
+    
+    .portfolio-div{
+        width: 100%;
+        margin-top: 5%;
+        font-family: "Open Sans";
+        display: flex;
+    }
+    
+    .portfolio-img{
+        width: 600px;
+        height: 260px;
+        overflow: hidden;
+        margin-top: 10px; 
+    }
+    
+    .portfolio-img img{
+        width: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    
+    .portfolio-div-desc{
+        margin-left: 5%;
+        width: 100%;
+    }
+    
+    .portfolio-tittle h3{
+/*        color: #131313;*/
+        font-size: 35px;
+        padding-top: 0px;
+    }
+    
+    .portfolio-subtittle h4{
+        font-size: 22px;
+    }
+    
+    .portfolio-subtittle i{
+        color: #7b8a96;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Roboto";
+    }
+    
+    .portfolio-subtittle h5{
+        color: #7b8a96;
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .portfolio-desc{
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 5px;
+    }
+    
+    .portfolio-desc p{
+        color: #7b8a96;
+    }
+    
+    .hidden { opacity: 0; }
+    
+    
+}
