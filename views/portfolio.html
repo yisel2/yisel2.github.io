@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    
     <title>Gisella Alaniz</title>
     
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/movil.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/desktop.css">
     <link rel="stylesheet" href="../css/portfolio.css">
     
     <!-- Fuentes -->
@@ -17,8 +20,12 @@
     <!-- Iconos -->
     <link rel="stylesheet" href="../icons/styles.css">
     
-    <!-- Script -->
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="../css/animate.min.css">
+    
+    <!-- Script -->    
     <script src="https://kit.fontawesome.com/bb28c29ded.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     
 </head>
 <body>
@@ -26,37 +33,69 @@
     <div id="particles-js"></div>
     
     <!-- Header -->
-    <div class="header">        
-       
-        <!-- Versión móvil -->
-        <div class="movil">
+    <div class="header">
+        
+    </div>  
+    <!-- Fin Header -->
+    
+    <!-- Body -->
+    <body>
+        
+        <!-- Mobile Version -->
+        <div class="mobile">
+           
+            <!-- Menu -->
+            <div class="menu">
+                <div class="menu-js" id="menu-js">
+                    <a href="../index.html" class="menu-js-a active"><div class="fas fa-home menu-js-a-div"></div>Inicio</a>
+                    <a href="portfolio.html" class="menu-js-a"><div class="fas fa-briefcase menu-js-a-div active"></div>Proyectos</a>
+                    <a href="contact.html" class="menu-js-a"><div class="fas fa-envelope menu-js-a-div"></div>Contacto</a>
+                    <a href="about.html" class="menu-js-a"><div class="fas fa-address-card menu-js-a-div"></div>Sobre mí</a>
+                </div>
+                <div class="menu-js-exit" id="btn-hide">
+                    <div class="fas fa-times menu-js-exit-a animated fadeIn"></div> <!-- close -->
+                </div>
+            </div>
+            <!-- End Menu -->
+            
+        </div>
+                
+        <div class="mobile" id="mobile">
+            
+            <!-- Bars -->
             <div class="menu">
                 <div class="container">
-                    <div class="menu-js">
-                        <a href="../index.html" class="fas fa-home menu-js-a"></a> <!--index-->
-                        <a href="portfolio.html" class="fas fa-briefcase menu-js-a  active"></a> <!--proyects-->
-                        <a href="contact.html" class="fas fa-envelope menu-js-a"></a> <!--contact-->  
-                        <a href="about.html" class="menu-js-a">GA</a> <!--about me-->
+                    <div class="menu-bar">
+                        <div class="fas fa-bars menu-bar-a" id="btn-show"></div> <!--bars-->
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="display-movil">
-                    <h3 class="thin">Hola, <br> soy Gisella,</h3>
-                    <h3>Web Developer.</h3>
-                    <h6 class="subtitle">HTML5 / CSS3 / PHP + MySQL</h6>
+            <!-- End Bars -->
+            
+            <!-- First Header -->
+            <div class="first-display">
+                <div class="container">
+                    <div class="display-movil">
+                        <h3 class="thin">Hola, <br> soy Gisella,</h3>
+                        <h3>Web Developer.</h3>
+                        <h6 class="subtitle">Back End Developer / PHP + MySQL</h6>
+                    </div>
+                    <div class="button-movil">
+                        <a href="portfolio.html" class="button-movil-a">PROYECTOS</a>
+                        <a href="about.html" class="button-movil-a">SOBRE MÍ</a>
+                    </div>
                 </div>
-                <div class="button-movil">
-                    <a href="#" class="button-movil-a">PROYECTOS</a>
-                    <a href="#" class="button-movil-a">SOBRE MÍ</a>
-                </div>
-            </div>  
-            <div class="footer-movil">
+            </div>
+                
+            <!-- End First Header -->
+                
+            <!-- Footer -->
+            <div class="footer-mobile">
                 <div class="container">
                     <div class="social">
-                        <a href="https://www.facebook.com/yizhel.alanniz" class="icon-facebook social-a"></a>
-                        <a href="https://www.linkedin.com/in/gisella-daiana-alaniz-177b80163/" class="icon-linkedin social-a"></a>
-                        <a href="http://api.whatsapp.com/send?phone=5492657567169" class="icon-whatsapp social-a"></a>
+                        <a href="https://www.facebook.com/yizhel.alanniz" class="fab fa-facebook-f social-a"></a>
+                        <a href="https://www.linkedin.com/in/gisella-daiana-alaniz-177b80163/" class="fab fa-linkedin-in social-a"></a>
+                        <a href="http://api.whatsapp.com/send?phone=5492657567169" class="fab fa-whatsapp social-a"></a>
                     </div>
                     <div class="thanks-to">
                         <p>
@@ -68,26 +107,76 @@
                         </p>
                     </div>
                 </div>
-            </div>            
-        </div>
-        <!-- Fin versión móvil -->
-        
-        <!-- Barra de navegación -->
-        <!--<nav class="nav">
-            <div class="container">
-                <ul>
-                    <li><a href="">INICIO</a></li>
-                    <li><a href="">PROYECTOS</a></li>
-                    <li><a href="">CONTACTO</a></li>
-                </ul>
             </div>
-        </nav>-->
-        <!-- Fin Barra de navegación -->
+            <!-- End Footer -->
+            
+        </div>
+        <!-- End Mobile Version -->
         
-    </div>  
-    <!-- Fin Header -->
+        <!-- Desktop Version -->
+        <div class="desktop">
+            
+            <!-- Menu -->
+            <div class="menu">
+                <div class="logo">
+                    <a href="#" class="logo-a">GA</a>
+                </div>
+                <div class="menu-icons">
+                    <a href="../index.html" class=""><div class="fas fa-home menu-icons-div"></div></a>
+                    <a href="portfolio.html" class=""><div class="fas fa-briefcase menu-icons-div active"></div></a>
+                    <a href="contact.html" class=""><div class="fas fa-envelope menu-icons-div"></div></a>
+                    <a href="about.html" class=""><div class="fas fa-address-card menu-icons-div"></div></a>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/yizhel.alanniz" class="fab fa-facebook-f social-a"></a>
+                    <a href="https://www.linkedin.com/in/gisella-daiana-alaniz-177b80163/" class="fab fa-linkedin-in social-a"></a>
+                    <a href="http://api.whatsapp.com/send?phone=5492657567169" class="fab fa-whatsapp social-a"></a>
+                </div>
+            </div>
+            <!-- End Menu -->
+            
+            <!-- Banner -->
+            <div class="banner">
+                <div class="container">
+                    <div class="display">
+                        <div class="filter">
+                            <h3>Filtrar por:</h3> 
+                            <input type="checkbox"> Más recientes
+                            <input type="checkbox"> Más antiguos
+                        </div>
+                        <div class="portfolio">
+                            <div class="portfolio-div">
+                                <div class="portfolio-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <div class="portfolio-tittle">
+                                    <h3>Titulo</h3>
+                                </div>
+                                <div class="portfolio-desc">
+                                    <p>Descripcion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+                <div class="thanks-to">
+                    <p>
+                        Gracias a
+                        <a class="thanks-to-a" href="https://www.freepik.es/fotos/textura">www.freepik.es</a>
+                    </p>
+                </div>
+            </div>
+            <!-- End Banner -->
+        </div>
+        
+        
+        <!-- End Desktop Version -->
+        
+    </body>
+    <!-- Fin Body -->
     
-    <!-- Scripts -->    
+    <!-- Scripts -->
+    <script src="../js/menu-js.js"></script>
     <script src="../js/particles.js"></script>    
     <script src="../js/particles.min.js"></script>
     <script src="../js/app.js"></script>
