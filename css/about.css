@@ -27,11 +27,6 @@
         font-size: 16px;
         margin-right: 5%;
         text-align: justify;
-/*
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-*/
     }
     
     .about-me-desc p{
@@ -40,7 +35,7 @@
     }
     
     .avatar{
-        width: 500px;        
+        width: 70%;       
     }   
     
     .avatar img{
@@ -76,32 +71,47 @@
     
     .about-me-skill{
         display: flex;        
-        justify-content: space-between;   
+        justify-content: center;   
         margin-top: 5%;
     }
     
     .skill{
-        background: #fff;
-        width: 22%;
-        height: 200px;
+/*        background: #fcfcfc;*/
+        width: 20%;
         border-radius: 5px;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.29);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
-    .skill-img{
-        width: 90%;
-        height: 160px;
-        overflow: hidden;
-        margin: auto;
+    .skill-ico div{
+        font-size: 50px;
+        color: #252627;
+        margin-bottom: 10px;
     }
     
-    .skill-img img{
-        width: 100%;        
+/*
+    .html5-div{
+        color: #F15931;
     }
+    
+    .css3-div{
+        color: #007DC6;
+    }
+    
+    .js-div{
+        color: #F58233;
+    }
+    
+    .php-div{
+        color: #777BB3;
+    }
+*/
     
     .skill h3{
         color: #252627;
         font-family: "Muli";
         text-align: center;
+        font-size: 16px;
     }
 }
