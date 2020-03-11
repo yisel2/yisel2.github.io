@@ -25,6 +25,18 @@ body {
     background-size:cover;
 }
 
+body::-webkit-scrollbar{
+    width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: #252627;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #F1F1F1;
+}
+
 /* Partículas */
 
 #particles-js {

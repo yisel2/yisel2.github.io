@@ -114,4 +114,8 @@
         text-align: center;
         font-size: 16px;
     }
+    
+    .delay{
+        animation-delay: .5s;
+    }
 }

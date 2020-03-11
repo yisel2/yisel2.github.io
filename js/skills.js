@@ -5,7 +5,7 @@ $(document).ready(function() {
 $(window).scroll( function(){
 
 /* Check the location of each desired element */
-$('.hideme').each( function(i){
+$('.hideme-skill').each( function(i){
 
     var bottom_of_object = $(this).position().top + $(this).outerHeight();
     var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -15,7 +15,7 @@ $('.hideme').each( function(i){
     if( bottom_of_window > bottom_of_object ){
 
         $(this).removeClass('hidden');
-        $(this).addClass('animated fadeInUp');
+        $(this).addClass('animated fadeIn');
     }
 
 }); 
