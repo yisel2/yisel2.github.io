@@ -3,35 +3,14 @@
     
     /* Portfolio */
     
-    .portfolio-start, .about-me-start{
-        background: #252627;        
-/*        margin: 50px 0px 50px 0px;*/
-        padding-top: 50px;
-        padding-bottom: 50px;
+    .portfolio-start{
+        background: #252627;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
     
     .display-portfolio{
         text-align: left;
-    }
-    
-    .tittle{
-        text-align: center;
-        padding-bottom: 50px;
-        border-bottom: 1px solid #525659;
-    }
-    
-    .tittle h3{
-        font-size: 32px;
-        font-weight: 600;
-        font-family: "Muli";
-        padding-bottom: 5px;
-    }
-    
-    .tittle h5{
-        color: #909599;
-        font-weight: 600;
-        font-size: 18px;
-        font-family: "Muli";
     }
     
     .portfolio{

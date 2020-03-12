@@ -37,6 +37,22 @@ body::-webkit-scrollbar-thumb{
     background: #F1F1F1;
 }
 
+.delay-1{
+    animation-delay: .3s;
+}
+
+.delay-2{
+    animation-delay: .7s;
+}
+
+.delay-3{
+    animation-delay: 1.1s;
+}
+
+.delay-4{
+    animation-delay: 1.5s;
+}
+
 /* Partículas */
 
 #particles-js {

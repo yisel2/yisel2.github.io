@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
     
     <!-- Fuentes -->
     <link rel="stylesheet" href="#">
@@ -121,8 +122,8 @@
                 </div>
                 <div class="menu-icons">
                     <a href="index.html" class=""><div class="fas fa-home menu-icons-div active"></div></a>
-                    <a href="views/portfolio.html" class=""><div class="fas fa-briefcase menu-icons-div"></div></a>
                     <a href="views/about.html" class=""><div class="fas fa-address-card menu-icons-div"></div></a>
+                    <a href="views/portfolio.html" class=""><div class="fas fa-briefcase menu-icons-div"></div></a>
                     <a href="views/contact.html" class=""><div class="fas fa-envelope menu-icons-div"></div></a>
                 </div>
                 <div class="social">
@@ -137,10 +138,10 @@
             <div class="banner">
                 <div class="container">
                     <div class="display">
-                        <h3 class="name animated fadeInRight">GA</h3>
-                        <h3 class="animated fadeInLeft">GISELLA ALANIZ</h3>
+                        <h3 class="name animated fadeInRight delay-2">GA</h3>
+                        <h3 class="animated fadeInLeft delay-2">GISELLA ALANIZ</h3>
 <!--                        <h3>DESARROLLADORA WEB</h3>-->
-                        <h6 class="subtitle animated fadeIn">Desarrolladora Web</h6>
+                        <h6 class="subtitle animated fadeIn delay-2">Desarrolladora Web</h6>
                     </div>                  
                 </div>
                 <div class="thanks-to">
@@ -153,7 +154,7 @@
             <!-- End Banner -->
             
             <!-- About me -->
-            <div class="about-me-start">
+            <div class="about-me-start" id="about-me">
                 <div class="container">
                     <div class="tittle hidden hideme">
                         <h3>Sobre mí</h3>
@@ -161,12 +162,10 @@
                     </div>
                     <div class="about-me">
                         <div class="about-me-me">
-                            <div class="about-me-desc hidden hideme">
-                                <p>Mi nombre es Gisella Alaniz, soy estudiante de la Universidad Nacional de San Luis (UNSL), empecé con trabajos de desarrollo web en 2do año de la carrera Tecnicatura Universitaria en Web, considero importantes aquellos proyectos orientados a la creación de sistemas web donde tuve que asumir distintos roles en distintas fases de desarrollo como analista, diseñadora y programadora, además de realizar la documentación correspondiente en cada proyecto. Actualmente me dedico a desarrollar páginas de forma autónoma siguiendo cursos e ideas propias para llegar a la experticia.</p>
+                            <div class="about-me-desc">
+                                <p class="hidden hideme">Mi nombre es Gisella Alaniz, soy estudiante de la Universidad Nacional de San Luis (UNSL), empecé con trabajos de desarrollo web en 2do año de la carrera Tecnicatura Universitaria en Web, considero importantes aquellos proyectos orientados a la creación de sistemas web donde tuve que asumir distintos roles en distintas fases de desarrollo como analista, diseñadora y programadora, además de realizar la documentación correspondiente en cada proyecto. Actualmente me dedico a desarrollar páginas como autodidacta siguiendo cursos e ideas propias para llegar a la experticia.</p>
                                 <br>
-                                <p>
-                                    Soy una persona apasionada por la programación y tengo interés en seguir aprendiendo nuevas tecnologías para el desarrollo web además de acercarme más al diseño UX/UI.
-                                </p>                             
+                                <p class="hidden hideme">Soy una persona apasionada por la programación y tengo interés en seguir aprendiendo nuevas tecnologías para el desarrollo web además de acercarme más al diseño UX/UI.</p>                             
                             </div>                        
                             <div class="avatar hidden hideme">
                                 <img src="img/avatar.jfif" alt="">
@@ -177,8 +176,8 @@
                                 <h3>Habilidades Técnicas</h3>
                                 <h5>Mis especialidades</h5>
                             </div>
-                            <div class="about-me-skill hidden hideme-skill delay">
-                                <div class="skill">
+                            <div class="about-me-skill">
+                                <div class="skill hidden hideme-skill delay-1">
                                     <div class="skill-ico html5-div">
 <!--                                        <img src="img/skills/html5.jpg" alt="">-->
                                         <div class="fab fa-html5 html5-div"></div>
@@ -187,7 +186,7 @@
                                         <h3>HTML5</h3>
                                     </div>                                    
                                 </div>
-                                <div class="skill">
+                                <div class="skill hidden hideme-skill delay-2">
                                     <div class="skill-ico">
 <!--                                        <img src="img/skills/1.jpg" alt="">-->
                                         <div class="fab fa-css3-alt css3-div"></div>
@@ -196,7 +195,7 @@
                                         <h3>CSS3</h3>
                                     </div> 
                                 </div>                                
-                                <div class="skill">
+                                <div class="skill hidden hideme-skill delay-3">
                                     <div class="skill-ico">
 <!--                                        <img src="img/skills/1.jpg" alt="">-->
                                         <div class="fab fa-js js-div"></div>
@@ -205,7 +204,7 @@
                                         <h3>JAVASCRIPT</h3>
                                     </div> 
                                 </div>
-                                <div class="skill">
+                                <div class="skill hidden hideme-skill delay-4">
                                     <div class="skill-ico">
 <!--                                        <img src="img/skills/1.jpg" alt="">-->
                                         <div class="fab fa-php php-div"></div>
@@ -222,7 +221,7 @@
             <!-- End About me -->
             
             <!-- Portfolio -->
-            <div class="portfolio-start">
+            <div class="portfolio-start" id="portfolio">
                 <div class="container">
                     <div class="display-portfolio">
                         <div class="tittle hidden hideme">
@@ -273,11 +272,41 @@
             <!-- End Porfolio -->            
             
             <!-- Contact -->
-            <div>
-                
+            <div class="contact-start" id="contact">
+                <div class="container">
+                    <div class="tittle hidden hideme">
+                        <h3>Contacto</h3>
+                        <h5>Información de contacto</h5>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-desc">
+                            <p>UNIQUE Infoway <br>
+                            104, Some street, NewYork, USA <br>
+
+                            call us <br>
+                            +1 234 567890 <br>
+
+                            Email us <br>
+                            support@sitename.com</p>                            
+                        </div>
+                        <div class="contact-form">
+                            <form action="#">
+
+                            </form>
+                        </div>                        
+                    </div>
+                </div>
             </div>
             <!-- End Contact-->
             
+            <!-- Footer -->
+            <footer class="footer-start">
+                <div class="container">
+                    <div class="footer">
+                        
+                    </div>
+                </div>
+            </footer>
         </div>
         
         

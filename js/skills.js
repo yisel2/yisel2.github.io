@@ -15,7 +15,7 @@ $('.hideme-skill').each( function(i){
     if( bottom_of_window > bottom_of_object ){
 
         $(this).removeClass('hidden');
-        $(this).addClass('animated fadeIn');
+        $(this).addClass('animated bounceIn');
     }
 
 }); 

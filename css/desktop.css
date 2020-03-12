@@ -138,4 +138,24 @@
         text-decoration: none;
         color: #525659;
     }
+    
+    .tittle{
+        text-align: center;
+        padding-bottom: 70px;
+        border-bottom: 1px solid #525659;
+    }
+    
+    .tittle h3{
+        font-size: 32px;
+        font-weight: 600;
+        font-family: "Muli";
+        padding-bottom: 5px;
+    }
+    
+    .tittle h5{
+        color: #909599;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Muli";
+    }
 }
