@@ -10,6 +10,7 @@
     
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/portfolio.css">
@@ -28,12 +29,6 @@
     
 </head>
 <body>
-    
-    <!-- Header -->
-    <div class="header">
-        
-    </div>  
-    <!-- Fin Header -->
     
     <!-- Body -->
     <body>
@@ -110,27 +105,27 @@
         </div>
         <!-- End Mobile Version -->
         
+        <!-- Menu -->
+        <div class="menu">
+            <div class="logo">
+                <a href="https://github.com/yisel2" class="logo-a">GA</a>
+            </div>
+            <div class="menu-icons">
+                <a href="#home" class=""><div class="fas fa-home menu-icons-div" id="nav-home"></div></a>
+                <a href="#about-me" class=""><div class="fas fa-address-card menu-icons-div" id="nav-about"></div></a>
+                <a href="#portfolio" class=""><div class="fas fa-briefcase menu-icons-div" id="nav-portfolio"></div></a>
+                <a href="#contact" class=""><div class="fas fa-envelope menu-icons-div" id="nav-contact"></div></a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/yizhel.alanniz" class="fab fa-facebook-f social-a"></a>
+                <a href="https://www.linkedin.com/in/gisella-daiana-alaniz-177b80163/" class="fab fa-linkedin-in social-a"></a>
+                <a href="http://api.whatsapp.com/send?phone=5492657567169" class="fab fa-whatsapp social-a"></a>
+            </div>
+        </div>
+        <!-- End Menu -->
+        
         <!-- Desktop Version -->
         <div class="desktop">
-            
-            <!-- Menu -->
-            <div class="menu">
-                <div class="logo">
-                    <a href="https://github.com/yisel2" class="logo-a">GA</a>
-                </div>
-                <div class="menu-icons">
-                    <a href="#home" class=""><div class="fas fa-home menu-icons-div" id="nav-home"></div></a>
-                    <a href="#about-me" class=""><div class="fas fa-address-card menu-icons-div" id="nav-about"></div></a>
-                    <a href="#portfolio" class=""><div class="fas fa-briefcase menu-icons-div" id="nav-portfolio"></div></a>
-                    <a href="#contact" class=""><div class="fas fa-envelope menu-icons-div" id="nav-contact"></div></a>
-                </div>
-                <div class="social">
-                    <a href="https://www.facebook.com/yizhel.alanniz" class="fab fa-facebook-f social-a"></a>
-                    <a href="https://www.linkedin.com/in/gisella-daiana-alaniz-177b80163/" class="fab fa-linkedin-in social-a"></a>
-                    <a href="http://api.whatsapp.com/send?phone=5492657567169" class="fab fa-whatsapp social-a"></a>
-                </div>
-            </div>
-            <!-- End Menu -->
             
             <!-- Home -->
             <div class="home" id="home">
@@ -138,15 +133,8 @@
                     <div class="display">
                         <h3 class="name animated fadeInRight delay-2">GA</h3>
                         <h3 class="animated fadeInLeft delay-2">GISELLA ALANIZ</h3>
-<!--                        <h3>DESARROLLADORA WEB</h3>-->
                         <h6 class="subtitle animated fadeIn delay-2">Desarrolladora Web</h6>
                     </div>                  
-                </div>
-                <div class="thanks-to">
-                    <p>
-                        Gracias a
-                        <a class="thanks-to-a" href="https://www.freepik.es/fotos/textura">www.freepik.es</a>
-                    </p>
                 </div>
             </div>
             <!-- End Home -->
@@ -279,22 +267,19 @@
                     <div class="contact">
                         <div class="contact-desc">
                             <div>
-                                <h4>Email</h4>
+                                <h5>Email</h5>
                                 <p>gisella.alaniz.94@gmail.com</p> 
                             </div>
                             <div>
-                                <h4>Teléfono</h4>
+                                <h5>Teléfono</h5>
                                 <p>+54 9 2657 567169</p> 
                             </div>                            
                         </div>
                         <div class="contact-form">
                             <form action="#" method="get">
-                                <label for=""><h4>Tu Nombre</h4></label>
-                                <input type="text">
-                                <label for=""><h4>Tu Email</h4></label>
-                                <input type="text">
-                                <label for=""><h4>Tu Mensaje</h4></label>
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <input type="text" placeholder="Nombre">
+                                <input type="text" placeholder="Email">
+                                <textarea name="" id="" cols="" rows="10" placeholder="Mensaje"></textarea>
                                 <input type="submit" value="ENVIAR">
                             </form>
                         </div>                        
@@ -307,7 +292,12 @@
             <footer class="footer-start">
                 <div class="container">
                     <div class="footer">
-                        
+                        <div class="thanks-to">
+                            <p>
+                                Gracias a
+                                <a class="thanks-to-a" href="https://www.freepik.es/fotos/textura">www.freepik.es</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </footer>

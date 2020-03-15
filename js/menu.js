@@ -38,7 +38,7 @@ $(document).ready(function(){
             $("#nav-portfolio").addClass("active");
         }
         
-        if( scroll >= (contact_start * 0.80) && ( scroll <= (contact_end * 0.80) ) ){
+        if( scroll >= (contact_start * 0.90) && ( scroll <= (contact_end * 0.80) ) ){
             $(".menu-icons-div").each( function(i){
                 $(this).removeClass("active");
             });

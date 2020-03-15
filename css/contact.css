@@ -8,7 +8,7 @@
         background: #F1F1F1;
     }
     
-    .contact-start .tittle h3, .contact-start .tittle h5, .contact-desc h4, .contact-desc p, .contact-form h4, .contact-form input[type="submit"]{
+    .contact-start .tittle h3, .contact-start .tittle h5, .contact-desc h4, .contact-desc p, .contact-form p, .contact-form input[type="submit"]{
         color: #252627;
         font-family: "Muli";
         
@@ -22,30 +22,54 @@
     }
     
     .contact-desc{
-        width: 100%;
+        width: 40%;
     }
     
-    .contact-desc div{
-/*        margin-bottom: 5%;*/
-    }
-    
-    .contact-desc h4, .contact-form h4{
-        font-size: 22px;
+    .contact-desc h5, .contact-form h5{
+        color: #525659;
         font-weight: 600;
+        font-size: 18px;
+        font-family: "Muli";
+        margin-top: 10px;
     }
-    
+        
     .contact-desc p{
         font-size: 16px;
         font-weight: 600;
-        color: #525659;
-        margin-top: 5px;
+        color: #909599;
+        margin-bottom: 20px;
     }
     
     .contact-form{
-        width: 100%;
+        width: 60%;
     }
     
-    .contact-form h4{
-        color: #252627;
+    .contact-form input[type="text"], .contact-form textarea{
+        background: #e6e6e6;
+        width: 100%;
+        padding: 20px 0px 20px 20px;
+        color: #909599;
+/*        border-radius: 3px;*/
+        border: 0.5px solid #cacaca;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-family: "Muli";
+        font-size: 16px;
+        box-sizing: border-box;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+    
+    .contact-form input[type="text"]:focus, .contact-form textarea:focus{
+        box-shadow: inset 0px 1px 5px #cacacacc;
+        outline: 0;
+    }
+    
+    .contact-form textarea{
+        resize: none;
+    }
+    
+    ::placeholder {
+        color: #909599;
+        font-size: 16px;
     }
 }

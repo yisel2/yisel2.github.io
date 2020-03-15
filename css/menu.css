@@ -1,0 +1,82 @@
+/* Versión escritorio */
+
+@media(min-width:720px){
+    
+    /* Menu */
+    
+    .menu{
+        height: 100vh;
+        background: #131313;
+        width: 50px;
+        position: fixed;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .logo-a{
+        text-decoration: none;
+        color: #525659;
+        font-weight: 600;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+        font-family: "Elemental End";
+    }    
+    
+    .menu-icons{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .menu-icons-div{
+        color: #525659;
+        height: 5vh;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
+    
+    .social{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .social-a{
+        text-decoration: none;
+        color: #525659;
+        height: 4vh;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
+    
+    .active{
+        opacity: 1;
+        color: #fff;
+    }
+    
+    .logo-a:hover, .menu-icons-div:hover, .social-a:hover{
+        color: #fff;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
+}
