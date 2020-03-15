@@ -52,12 +52,3 @@ body::-webkit-scrollbar-thumb{
 .delay-4{
     animation-delay: 1.5s;
 }
-
-/* Partículas */
-
-#particles-js {
-	height: 100vh; 
-	width: 100%;
-    position: fixed;
-    z-index: -50;
-}
