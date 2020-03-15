@@ -27,13 +27,13 @@
     }
     
     .display h3{        
-        color: #252627;
+        color: #F1F1F1;
         font-weight: 400;
         font-size: 40px;
     }
     
     .display .name{      
-        color: #252627;
+        color: #F1F1F1;
         font-size: 80px;
         font-family: "Elemental End";
     }
@@ -41,7 +41,7 @@
     .subtitle{
         margin-top: 10px;
         font-weight: 400;
-        color: #525659;
+        color: #909599;
         font-size: 18px;
         font-family: "Muli";
     }
