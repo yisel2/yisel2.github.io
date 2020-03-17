@@ -17,14 +17,14 @@ $(document).ready(function(){
         var contact_start = $("#contact").position().top;
         var contact_end = $("#contact").position().top + $("#contact").outerHeight();
         
-        if( scroll >= (home_start * 0.90) && ( scroll <= (home_end * 0.55) ) ){  
+        if( scroll >= (home_start * 0.90) && ( scroll <= (home_end * 0.25) ) ){  
             $(".menu-icons-div").each( function(i){
                 $(this).removeClass("active");
             });
             $("#nav-home").addClass("active");
         }
         
-        if( ( scroll >= (about_start * 0.80) ) && ( scroll <= (about_end * 0.70) ) ){  
+        if( ( scroll >= (about_start * 0.80) ) && ( scroll <= (about_end * 0.60) ) ){  
             $(".menu-icons-div").each( function(i){
                 $(this).removeClass("active");
             });

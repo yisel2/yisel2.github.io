@@ -5,11 +5,11 @@
     .contact-start{
         padding-top: 70px;
         padding-bottom: 70px;
-        background: #F1F1F1;
+        background: #252627;
     }
     
     .contact-start .tittle h3, .contact-start .tittle h5, .contact-desc h4, .contact-desc p, .contact-form p, .contact-form input[type="submit"]{
-        color: #252627;
+        color: #F1F1F1;
         font-family: "Muli";
         
     }
@@ -21,24 +21,26 @@
     }
     
     .contact-desc{
-        width: 40%;
+        width: 45%;
     }
     
     .contact-desc-tittle h5{
-        color: #525659;
+        color: #F1F1F1;
         font-weight: 600;
         font-size: 18px;
         font-family: "Muli";
         margin-top: 10px;
         margin-bottom: 15%;
+        padding-left: 20px;
     }
     
     .contact-desc-tp h5{
-        color: #525659;
+        color: #F1F1F1;
         font-weight: 600;
         font-size: 18px;
         font-family: "Muli";
         margin-top: 10px;
+        padding-left: 20px;
     }
     
     .contact-desc-tp p{
@@ -47,6 +49,7 @@
         color: #909599;
         margin-top: 5px;
         margin-bottom: 10%;
+        padding-left: 20px;
     }    
     
     .social{
@@ -57,9 +60,11 @@
     
     .social-a{
         text-decoration: none;
-        color: #525659;
-        margin-right: 10%;
+        color: #F1F1F1;
         font-size: 22px;
+        padding: 20px;
+        width: 20px;
+        border-radius: 5px;
         -moz-transition: all ease .5s;
         -ms-transition: all ease .5s;
         -webkit-transition: all ease .5s;
@@ -67,17 +72,36 @@
         transition: all ease .5s;
     }
     
+    .fa-facebook-f:hover{
+        background: #4267B2;
+        color: #fff;
+    }
+    
+    .fa-linkedin-in:hover{
+        background: #0077B5;
+        color: #fff;
+    }
+    
+    .fa-whatsapp:hover{
+        background: #00A859;
+        color: #fff;
+    }
+    
+    .fa-github:hover{
+        background: #F1F1F1;
+        color: #24292E;
+    }
+    
     .contact-form{
-        width: 60%;
+        width: 55%;
     }
     
     .contact-form input[type="text"], .contact-form textarea{
-        background: #e6e6e6;
+        background: #252627;
         width: 100%;
-        padding: 20px 0px 20px 20px;
-        color: #909599;
-/*        border-radius: 3px;*/
-        border: 0.5px solid #cacaca;
+        padding: 15px 0px 15px 15px;
+        color: #F1F1F1;
+        border: .5px solid #90959999;
         margin-top: 5px;
         margin-bottom: 5px;
         font-family: "Muli";
@@ -87,7 +111,8 @@
     }
     
     .contact-form input[type="text"]:focus, .contact-form textarea:focus{
-        box-shadow: inset 0px 1px 5px #cacacacc;
+/*        box-shadow: inset 0px 1px 5px #909599;*/
+        border-color: #cacaca;
         outline: 0;
     }
     
@@ -100,8 +125,34 @@
         font-size: 16px;
     }
     
+    .submit{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
     .contact-form input[type="submit"]{
         padding: 20px;
-        width: 100%;
+        width: 25%;
+        background: #252627;
+        border: .5px solid #90959999;
+        font-size: 16px;
+        font-weight: 700;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
+    
+    .contact-form input[type="submit"]:hover{
+        background: #F1F1F1;
+        color: #252627;
+        border-color: #cacaca;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
     }
 }

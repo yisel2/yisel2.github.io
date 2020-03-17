@@ -1,0 +1,30 @@
+/* Desktop Version */
+@media(min-width:720px){
+    
+    /* Footer */
+    
+    .footer-start{
+        background: #252627;
+    }
+    
+    .footer{
+        border-top: 1px solid #525659;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 100px;
+    }
+    
+    .footer h3, .footer h5{
+        color: #909599;
+        font-family: "Muli";
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color: #F1F1F1;
+    }
+}

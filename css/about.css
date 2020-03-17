@@ -24,7 +24,7 @@
     }
     
     .about-me-desc{
-        width: 100%;
+        width: 80%;
         font-size: 16px;
         margin-right: 5%;
         text-align: justify;
@@ -36,7 +36,7 @@
     }
     
     .avatar{
-        width: 500px;       
+        width: 20%;       
     }   
     
     .avatar img{
