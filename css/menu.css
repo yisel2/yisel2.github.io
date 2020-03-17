@@ -9,10 +9,10 @@
         background: #131313;
         width: 50px;
         position: fixed;
-        font-size: 18px;
+        font-size: 22px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
     }
     
     .logo{
@@ -40,7 +40,7 @@
     
     .menu-icons-div{
         color: #525659;
-        height: 5vh;
+        height: 10vh;
         -moz-transition: all ease .5s;
         -ms-transition: all ease .5s;
         -webkit-transition: all ease .5s;
@@ -48,23 +48,6 @@
         transition: all ease .5s;
     }
     
-    .social{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    
-    .social-a{
-        text-decoration: none;
-        color: #525659;
-        height: 4vh;
-        -moz-transition: all ease .5s;
-        -ms-transition: all ease .5s;
-        -webkit-transition: all ease .5s;
-        -o-transition: all ease .5s;
-        transition: all ease .5s;
-    }
     
     .active{
         opacity: 1;

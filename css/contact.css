@@ -18,26 +18,53 @@
         margin-top: 5%;
         margin-bottom: 5%;
         display: flex;
-        justify-content: space-between;
     }
     
     .contact-desc{
         width: 40%;
     }
     
-    .contact-desc h5, .contact-form h5{
+    .contact-desc-tittle h5{
+        color: #525659;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Muli";
+        margin-top: 10px;
+        margin-bottom: 15%;
+    }
+    
+    .contact-desc-tp h5{
         color: #525659;
         font-weight: 600;
         font-size: 18px;
         font-family: "Muli";
         margin-top: 10px;
     }
-        
-    .contact-desc p{
+    
+    .contact-desc-tp p{
         font-size: 16px;
         font-weight: 600;
         color: #909599;
-        margin-bottom: 20px;
+        margin-top: 5px;
+        margin-bottom: 10%;
+    }    
+    
+    .social{
+        display: flex;
+        text-align: center;
+        margin-top: 15%;
+    }
+    
+    .social-a{
+        text-decoration: none;
+        color: #525659;
+        margin-right: 10%;
+        font-size: 22px;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
     }
     
     .contact-form{
@@ -71,5 +98,10 @@
     ::placeholder {
         color: #909599;
         font-size: 16px;
+    }
+    
+    .contact-form input[type="submit"]{
+        padding: 20px;
+        width: 100%;
     }
 }

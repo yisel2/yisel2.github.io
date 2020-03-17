@@ -38,17 +38,17 @@ body::-webkit-scrollbar-thumb{
 }
 
 .delay-1{
-    animation-delay: .3s;
+    animation-delay: .2s;
 }
 
 .delay-2{
-    animation-delay: .7s;
+    animation-delay: .4s;
 }
 
 .delay-3{
-    animation-delay: 1.1s;
+    animation-delay: .6s;
 }
 
 .delay-4{
-    animation-delay: 1.5s;
+    animation-delay: .8s;
 }
