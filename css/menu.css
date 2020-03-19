@@ -5,76 +5,50 @@
     /* Menu */
     
     .menu{
-        height: 100vh;
-/*        background: #131313;*/
-/*        background: #e6e6e6;*/
-        width: 75px;
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        width: 100%;
+        background: #252627;
+/*        position: fixed;*/
         box-shadow: 5px 0px 25px #25262733;
         opacity: 1;
+        z-index: 100;
+        border-bottom: .5px solid #525659cc;
     }
-    
-    .logo{
-        text-align: center;
-        margin-top: 10px;
-    }
-    
-    .logo-a{
-        text-decoration: none;
-        color: #525659;
-        font-weight: 600;
-        -moz-transition: all ease .5s;
-        -ms-transition: all ease .5s;
-        -webkit-transition: all ease .5s;
-        -o-transition: all ease .5s;
-        transition: all ease .5s;
-        font-family: "Elemental End";
-    }    
     
     .menu-icons{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         text-align: center;
+        align-items: center;
+        min-height: 70px;
     }
     
-    .menu-icons-div{
+    .menu-icons a{        
+        text-decoration: none;
+    }
+    
+    .nav-a{
         color: #909599;
-        color: #bbbbbb;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-size: 20px;
+        font-size: 16px;        
+        font-family: "Muli";
+        margin: 0px 30px 0px 30px;
         -moz-transition: all ease .5s;
         -ms-transition: all ease .5s;
         -webkit-transition: all ease .5s;
         -o-transition: all ease .5s;
         transition: all ease .5s;
-/*
-        -webkit-text-fill-color: transparent;
-        -webkit-text-stroke-width: 2px;
-*/
-/*        -webkit-text-stroke-color: white;*/
     }
     
+    .nav-a:hover{
+        color: #F1F1F1;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
     
     .active{
-        opacity: 1;
-        color: #fff;
-        color: #252627;
-/*
-        -webkit-text-fill-color: #fff;
-        -webkit-text-stroke-width: 0px;
-*/
+        color: #F1F1F1;
     }
     
-    .logo-a:hover, .menu-icons-div:hover, .social-a:hover{
-        color: #fff;
-        -moz-transition: all ease .5s;
-        -ms-transition: all ease .5s;
-        -webkit-transition: all ease .5s;
-        -o-transition: all ease .5s;
-        transition: all ease .5s;
-    }
 }

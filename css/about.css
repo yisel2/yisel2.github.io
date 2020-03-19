@@ -33,16 +33,7 @@
     .about-me-desc p{
         color: #252627;
         font-family: "Muli";
-    }
-    
-    .avatar{
-        width: 20%;       
-    }   
-    
-    .avatar img{
-        width: 100%;
-        border-radius: 5px;
-    }    
+    } 
     
     .about-me-skills{
         margin-top: 5%;
