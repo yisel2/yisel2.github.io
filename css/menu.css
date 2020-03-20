@@ -5,13 +5,29 @@
     /* Menu */
     
     .menu{
+        position: static;
+        top: auto;
         width: 100%;
         background: #252627;
-/*        position: fixed;*/
         box-shadow: 5px 0px 25px #25262733;
-        opacity: 1;
         z-index: 100;
         border-bottom: .5px solid #525659cc;
+        -moz-transition: all ease 1s;
+        -ms-transition: all ease 1s;
+        -webkit-transition: all ease 1s;
+        -o-transition: all ease 1s;
+        transition: all ease 1s;
+    }
+    
+    .fixed{  
+        top: 0;
+        left: 0;
+        position: fixed;        
+        -moz-transition: all ease 1s;
+        -ms-transition: all ease 1s;
+        -webkit-transition: all ease 1s;
+        -o-transition: all ease 1s;
+        transition: all ease 1s;
     }
     
     .menu-icons{
@@ -51,4 +67,15 @@
         color: #F1F1F1;
     }
     
+    .hidemenu{
+        display: none;
+        width: 100%;
+        height: 72px;
+        float: none;
+    }
+    
+    .block{
+        display: block;
+        float: none;
+    }
 }
