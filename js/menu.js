@@ -35,14 +35,14 @@ $(document).ready(function(){
             });
             $("#nav-about").addClass("active");
         }
-        if( scroll >= (portfolio_start * 0.90) && ( scroll <= (portfolio_end * 0.77) ) ){
+        if( scroll >= (portfolio_start * 0.95) && ( scroll <= (portfolio_end * 0.77) ) ){
             $(".nav-a").each( function(i){
                 $(this).removeClass("active");
             });
             $("#nav-portfolio").addClass("active");
         }
         
-        if( scroll >= (contact_start * 0.90) && ( scroll <= (contact_end * 0.80) ) ){
+        if( scroll >= (contact_start * 0.97) && ( scroll <= (contact_end * 0.80) ) ){
             $(".nav-a").each( function(i){
                 $(this).removeClass("active");
             });

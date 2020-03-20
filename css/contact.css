@@ -3,20 +3,18 @@
     
     /* Contact */
     .contact-start{
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-bottom: 80px;
         background: #252627;
     }
     
     .contact-start .tittle h3, .contact-start .tittle h5, .contact-desc h4, .contact-desc p, .contact-form p, .contact-form input[type="submit"]{
         color: #F1F1F1;
-        font-family: "Muli";
-        
+        font-family: "Muli";        
     }
     
     .contact{
         margin-top: 80px;
-        margin-bottom: 80px;
         display: flex;
     }
     

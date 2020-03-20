@@ -1,0 +1,45 @@
+/* Desktop Version */
+@media(min-width:720px){
+    
+    /* About Me */
+    .skills-start{
+        padding-top: 100px;
+        padding-bottom: 80px;
+        background: #252627;
+    }
+    
+    .skills{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .skill{
+        background: white;
+        padding: 60px 30px;
+        max-width: 25%;
+    }
+    
+    .skill-ico{
+        font-size: 50px;
+    }
+    
+    .skill-ico div{
+        color: #252627;
+    }
+    
+    .skill h3, .skill p{
+        color: #252627;
+        font-family: "Muli";
+        line-height: 30px;
+    }
+    
+    .skill h3{
+        font-size: 20px;
+    }
+    
+    .skill p{
+        font-size: 16px;
+    }
+}

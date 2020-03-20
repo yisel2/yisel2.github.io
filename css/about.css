@@ -3,108 +3,36 @@
     
     /* About Me */
     .about-me-start{
-        padding-top: 70px;
-        padding-bottom: 70px;
+        padding-top: 100px;
+        padding-bottom: 80px;
         background: #F1F1F1;
+/*        width: 100%;*/
+/*        background: #F1F1F1 url("../img/avatar.jpg") 110% 10% no-repeat;*/
+/*
+        background: -webkit-linear-gradient(#2E222E,#2E222E80, #2E222E0d);
+        background: -o-linear-gradient(#2E222E,#2E222E80, #2E222E0d);
+        background: linear-gradient(#2E222E,#2E222E80, #2E222E0d);
+*/
     }
     
-    .about-me-start .tittle h3, .about-me-start .tittle-icon, .about-me-start .tittle h5{
+    .about-me-start .tittle h3, .about-me-start .tittle h5{
         color: #252627;
     }    
     
     .about-me{
-        margin-top: 5%;
-        margin-bottom: 5%;        
+        margin-top: 80px;     
         width: 100%;
     }
     
-    .about-me-me{
-        display: flex;
-        justify-content: space-between;
-    }
-    
     .about-me-desc{
-        width: 80%;
+        width: 50%;
         font-size: 16px;
-        margin-right: 5%;
         text-align: justify;
     }
     
     .about-me-desc p{
         color: #252627;
         font-family: "Muli";
-    } 
-    
-    .about-me-skills{
-        margin-top: 5%;
-        text-align: center;  
-        padding-top: 70px;
-    }
-    
-    .about-me-skills-tittle{
-        font-size: 32px;
-        font-family: "Muli";
-        padding-top: 70px;
-        padding-bottom: 70px;
-        border-bottom: 1px solid #525659;        
-    }
-    
-    .about-me-skills-tittle h3{
-        color: #252627;
-        font-weight: 600;
-    }
-    
-    .about-me-skills-tittle h5{
-        color: #252627;
-        font-weight: 600;
-        font-size: 18px;
-        font-family: "Muli";
-    }
-    
-    .about-me-skill{
-        display: flex;        
-        justify-content: center;   
-        margin-top: 5%;
-    }
-    
-    .skill{
-/*        background: #fcfcfc;*/
-        width: 20%;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .skill-ico div{
-        font-size: 50px;
-        color: #252627;
-        margin-bottom: 10px;
-    }
-    
-/*
-    .html5-div{
-        color: #F15931;
-    }
-    
-    .css3-div{
-        color: #007DC6;
-    }
-    
-    .js-div{
-        color: #F58233;
-    }
-    
-    .php-div{
-        color: #777BB3;
-    }
-*/
-    
-    .skill h3{
-        color: #252627;
-        font-family: "Muli";
-        text-align: center;
-        font-size: 16px;
     }
         
 }
