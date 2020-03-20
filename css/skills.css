@@ -16,30 +16,43 @@
     }
     
     .skill{
-        background: white;
-        padding: 60px 30px;
-        max-width: 25%;
+/*        background: white;*/
+        display: relative;
+        padding: 30px 20px;
+        width: 20%;
+        max-width: 20%;
+        border: .5px solid #90959999;
     }
     
     .skill-ico{
+        padding-top: 20px;
         font-size: 50px;
     }
     
     .skill-ico div{
-        color: #252627;
+        color: #f1f1f1;
     }
     
     .skill h3, .skill p{
-        color: #252627;
+/*        display: none;*/
+        color: #f1f1f1;
         font-family: "Muli";
-        line-height: 30px;
     }
     
     .skill h3{
-        font-size: 20px;
+        padding-top: 20px;
+        font-size: 22px;
     }
     
     .skill p{
+/*        display: none;*/
+        padding-top: 20px;
         font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .skill:hover{
+        border-color: #cacaca;
     }
 }

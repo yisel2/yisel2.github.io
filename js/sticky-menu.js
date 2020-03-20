@@ -4,7 +4,6 @@ $(document).ready(function(){
         var menu_top = $("#menu").position().top;
         var about_top = $("#about-me").position().top;
         var banner_bottom = $("#banner").position().top + $("#banner").outerHeight();
-        console.log("scroll: " + scroll + " menu_top: " + menu_top + " about_top: " + about_top);
         
         if(scroll >= menu_top){
             $("#hidemenu").addClass("block");
