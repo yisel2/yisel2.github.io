@@ -71,11 +71,9 @@
         display: none;
         width: 100%;
         height: 72px;
-        float: none;
     }
     
     .block{
         display: block;
-        float: none;
     }
 }
