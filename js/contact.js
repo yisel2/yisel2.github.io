@@ -15,7 +15,7 @@ $('.left').each( function(i){
     if( bottom_of_window > bottom_of_object ){
 
         $(this).removeClass('hidden');
-        $(this).addClass('animated fadeInLeft');
+        $(this).addClass('animated fadeIn');
     }
 
 }); 

@@ -13,13 +13,8 @@
         color: #252627;
     }
     
-    .display-portfolio{
-        text-align: left;
-    }
-    
     .portfolio{
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 100px;
     }
     
     .portfolio-div{
@@ -46,13 +41,13 @@
     
     .portfolio-tittle h3{
         font-size: 30px;
-        font-weight: 600;
+        font-weight: 700;
         font-family: "Muli";
     }
     
     .portfolio-subtittle h4{
         font-size: 22px;
-        font-weight: 600;
+        font-weight: 700;
         font-family: "Muli";
     }
     
@@ -65,14 +60,14 @@
     }
     
     .portfolio-subtittle h5{
-        font-size: 17px;
-        font-weight: 400;
+        font-size: 19px;
+        font-weight: 600;
         margin-top: 5px;
         font-family: "Muli";
     }
     
     .portfolio-desc{
-        font-size: 16px;
+        font-size: 18px;
         padding-top: 5px;
         padding-bottom: 5px;
         margin-top: 5px;

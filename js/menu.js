@@ -13,6 +13,9 @@ $(document).ready(function(){
         var about_start = $("#about-me").position().top;
         var about_end = $("#about-me").position().top + $("#about-me").outerHeight();
         
+        var skills_start = $("#skills").position().top;
+        var skills_end = $("#skills").position().top + $("#skills").outerHeight();
+        
         var portfolio_start = $("#portfolio").position().top;
         var portfolio_end = $("#portfolio").position().top + $("#portfolio").outerHeight();
         
@@ -35,6 +38,14 @@ $(document).ready(function(){
             });
             $("#nav-about").addClass("active");
         }
+        
+        if( ( scroll >= (skills_start * 0.90) ) && ( scroll <= (skills_end * 0.70) ) ){  
+            $(".nav-a").each( function(i){
+                $(this).removeClass("active");
+            });
+            $("#nav-skills").addClass("active");
+        }
+        
         if( scroll >= (portfolio_start * 0.95) && ( scroll <= (portfolio_end * 0.77) ) ){
             $(".nav-a").each( function(i){
                 $(this).removeClass("active");
