@@ -9,50 +9,128 @@
     }
     
     .skills{
-        margin-top: 80px;
+        margin-top: 100px;
         display: flex;
         justify-content: space-between;
-        text-align: center;
     }
     
     .skill{
-/*        background: white;*/
-        display: relative;
+        position: relative;
         padding: 30px 20px;
         width: 20%;
+        height: 307px;
+        max-height: 310px;
         max-width: 20%;
         border: .5px solid #90959999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+        /*    Border    */
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
     }
     
     .skill-ico{
+/*        position: absolute;*/
         padding-top: 20px;
+        padding-bottom: 10px;
         font-size: 50px;
+        color: #909599;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
     }
     
-    .skill-ico div{
-        color: #f1f1f1;
-    }
-    
-    .skill h3, .skill p{
-/*        display: none;*/
-        color: #f1f1f1;
+    .skill-h3, .skill-p{
         font-family: "Muli";
+        color: #909599;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
     }
     
-    .skill h3{
-        padding-top: 20px;
+    .skill-h3{
+        padding-top: 10px; 
         font-size: 22px;
     }
     
-    .skill p{
-/*        display: none;*/
-        padding-top: 20px;
+    .skill-p{
+        height: 0;
+        opacity: 0;
         font-size: 16px;
         line-height: 25px;
         text-align: center;
+        -moz-transition: all ease 1s;
+        -ms-transition: all ease 1s;
+        -webkit-transition: all ease 1s;
+        -o-transition: all ease 1s;
     }
     
     .skill:hover{
         border-color: #cacaca;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+        
+    }
+    
+    .skill:hover .skill-ico, .skill:hover .skill-h3, .skill:hover .skill-p{
+        color: #f1f1f1;
+        -moz-transition: all ease 1s;
+        -ms-transition: all ease 1s;
+        -webkit-transition: all ease 1s;
+        -o-transition: all ease 1s;
+        transition: all ease 1s;
+    }
+    
+    .skill:hover .skill-p{
+        opacity: 1;
+        height: auto;
+        -moz-transition: all ease 1s;
+        -ms-transition: all ease 1s;
+        -webkit-transition: all ease 1s;
+        -o-transition: all ease 1s;
+        transition: all ease 1s;
+    }
+    
+    .skill-animated{
+        -webkit-transform: perspective(15px);
+        -ms-transform: perspective(15px);
+        -o-transform: perspective(15px);
+        transform: perspective(15px);
+        
+        -webkit-transition-duration: 1s;
+        -o-transition-duration: 1s;
+        transition-duration: 1s;
+        
+        -webkit-transition-property:  transform;
+        -o-transition-property:  transform;
+        transition-property:  transform;
+        
+        -webkit-transition-timing-function:  ease;
+        -o-transition-timing-function:  ease;
+        transition-timing-function:  ease;
+    }
+    
+    .skill:hover .skill-animated{
+        -webkit-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -o-transform: translateY(-15px);
+        transform: translateY(-15px); 
+    }
+    
+    .skills-start .separator{
+        background: #252627;
     }
 }
