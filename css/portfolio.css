@@ -9,7 +9,7 @@
         background: #F1F1F1;
     }
     
-    .portfolio-start h3{
+    .portfolio-start h3, .portfolio-tittle h3, .portfolio-desc p, .portfolio-subtittle h4, .portfolio-subtittle i, .portfolio-subtittle h5{
         color: #252627;
     }
     
@@ -45,7 +45,6 @@
     }
     
     .portfolio-tittle h3{
-        color: #252627;
         font-size: 30px;
         font-weight: 600;
         font-family: "Muli";
@@ -55,11 +54,9 @@
         font-size: 22px;
         font-weight: 600;
         font-family: "Muli";
-        color: #252627;
     }
     
     .portfolio-subtittle i{
-        color: #909599;
         font-size: 20px;
         font-weight: 600;
         font-family: "Roboto";
@@ -68,7 +65,6 @@
     }
     
     .portfolio-subtittle h5{
-        color: #909599;
         font-size: 17px;
         font-weight: 400;
         margin-top: 5px;
@@ -82,11 +78,7 @@
         margin-top: 5px;
         font-family: "Muli";
         
-    }
-    
-    .portfolio-desc p{
-        color: #909599;
-    }
+    }    
     
     .hidden { opacity: 0; }
         
