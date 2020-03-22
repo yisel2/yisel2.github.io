@@ -41,13 +41,13 @@
     
     .portfolio-tittle h3{
         font-size: 30px;
-        font-weight: 700;
+        font-weight: 600;
         font-family: "Muli";
     }
     
     .portfolio-subtittle h4{
         font-size: 22px;
-        font-weight: 700;
+        font-weight: 600;
         font-family: "Muli";
     }
     
@@ -72,7 +72,7 @@
         padding-bottom: 5px;
         margin-top: 5px;
         font-family: "Muli";
-        
+        line-height: 25px;
     }    
     
     .hidden { opacity: 0; }
