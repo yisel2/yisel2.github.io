@@ -30,13 +30,29 @@
     
     .bars{
         min-height: 70px;
-        border-bottom: 1px solid #525659;
+        border-bottom: .5px solid #525659cc;
     }
     
     .menu-icons{
-        display: none;
+/*        display: none;*/
+        height: 0;
         text-align: center;
-        min-height: 70px;
+        overflow: hidden;
+        -moz-transition: height .5s;
+        -ms-transition: height .5s;
+        -o-transition: height .5s;
+        -webkit-transition: height .5s;
+        transition: height .5s;
+    }
+    
+    .menu-icons-height{
+        height: auto;
+        border-bottom: .5px solid #525659cc;
+        -moz-transition: height .5s;
+        -ms-transition: height .5s;
+        -o-transition: height .5s;
+        -webkit-transition: height .5s;
+        transition: height .5s;
     }
     
     .fa-bars{   
@@ -108,32 +124,6 @@
     
     .active{
         color: #F1F1F1;
-    }
-    
-    .menu{
-        position: static;
-        top: auto;
-        width: 100%;
-        background: #252627;
-        box-shadow: 5px 0px 25px #25262733;
-        z-index: 100;
-        border-bottom: .5px solid #525659cc;
-        -moz-transition: all ease 1s;
-        -ms-transition: all ease 1s;
-        -webkit-transition: all ease 1s;
-        -o-transition: all ease 1s;
-        transition: all ease 1s;
-    }
-    
-    .fixed{  
-        top: 0;
-        left: 0;
-        position: fixed;        
-        -moz-transition: all ease 1s;
-        -ms-transition: all ease 1s;
-        -webkit-transition: all ease 1s;
-        -o-transition: all ease 1s;
-        transition: all ease 1s;
     }
     
     .hidemenu{
