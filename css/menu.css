@@ -74,6 +74,17 @@
     .active{
         color: #F1F1F1;
     }
+    
+    .hidemenu{
+        display: none;
+        width: 100%;
+        height: 72px;
+        z-index: 99;
+    }
+    
+    .block{
+        display: block;
+    }
 }
 
 /* Versión escritorio */
@@ -115,17 +126,6 @@
     
     .active{
         color: #F1F1F1;
-    }
+    }    
     
-    .hidemenu{
-        display: none;
-        background: brown;
-        width: 100%;
-        height: 72px;
-        z-index: 99;
-    }
-    
-    .block{
-        display: block;
-    }
 }

@@ -1,26 +1,17 @@
 $(document).ready(function(){
-        var menu_top = $("#menu").position().top;
         var banner_bottom = $("#banner").position().top + $("#banner").outerHeight();
-        var about_top = $("#about-me").position().top;
         
-        console.log("banner_bottom " + banner_bottom);
-        
-        $(window).scroll( function(){
-            
-            var scroll = $(window).scrollTop();
-            var menu_top = $("#menu").position().top;
-            
-            console.log("scroll " + scroll);
-            console.log("menu_top " + menu_top);
-            
-            if(scroll >= menu_top){
-                $("#hidemenu").addClass("block");
+        $(window).scroll(function(){
+            var menu_top = $("#menu").position().top + 1;
+            console.log("scroll "+$(window).scrollTop()+" menutop "+menu_top+" bannerbot "+banner_bottom);
+            if($(window).scrollTop() > menu_top){
                 $("#menu").addClass("fixed");
-            }
-            
-            if(menu_top <= about_top){
+                $("#hidemenu").addClass("block");
+                console.log("entro al primer if");
+            }else if(menu_top < banner_bottom){
                 $("#hidemenu").removeClass("block");
                 $("#menu").removeClass("fixed");
+                console.log("entro al segundo if");
             }
-        });
+        });            
 });
