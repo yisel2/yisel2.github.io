@@ -19,14 +19,12 @@ html{
     color: #fff;
 }
 
-.hidden { 
-    opacity: 0; 
-}
+
 
 body {
     top: 0;
     width: 100%;  
-/*    background: url("../img/fondo.jpg") no-repeat 16% 100% fixed;      */
+    background: url("../img/fondo.jpg") no-repeat 16% 100% fixed;      
 }
 
 @media(min-width:720px){
@@ -35,6 +33,10 @@ body {
         background: url("../img/fondo.jpg") no-repeat fixed;
         background-size:cover;
     }   
+    
+    .hidden { 
+        opacity: 0; 
+    }
     
 }
 

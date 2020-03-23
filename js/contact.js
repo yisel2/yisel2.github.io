@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 /* Every time the window is scrolled ... */
-//    if($(window).width() >= 720){
+    if($(window).width() >= 720){
         $(window).scroll( function(){
 
         /* Check the location of each desired element */
@@ -20,5 +20,5 @@ $(document).ready(function() {
 
             }); 
         }); 
-//    }
+    }
 });

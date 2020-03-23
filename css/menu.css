@@ -34,25 +34,16 @@
     }
     
     .menu-icons{
-/*        display: none;*/
-        height: 0;
+        max-height: 0;
         text-align: center;
         overflow: hidden;
-        -moz-transition: height .5s;
-        -ms-transition: height .5s;
-        -o-transition: height .5s;
-        -webkit-transition: height .5s;
-        transition: height .5s;
+        transition: max-height .5s ease-out;
     }
     
     .menu-icons-height{
-        height: auto;
+        max-height: 372px;
         border-bottom: .5px solid #525659cc;
-        -moz-transition: height .5s;
-        -ms-transition: height .5s;
-        -o-transition: height .5s;
-        -webkit-transition: height .5s;
-        transition: height .5s;
+        transition: max-height .5s ease-in;
     }
     
     .fa-bars{   
@@ -88,7 +79,7 @@
 /* Versión escritorio */
 
 @media(min-width:720px){
-    
+        
     .bars{
         display: none;
     }

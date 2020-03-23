@@ -1,8 +1,13 @@
 $(document).ready(function() {
-    var fa_bars = $(".fa-bars");
-    var nav = $("#nav");
     
-    $("#nav").click(function(){
-        $(".fa-bars").addClass("menu-icons-height");
-    });
-}
+    if($("#nav").height){
+        $("#bars").click(function(){
+            $("#nav").toggleClass("menu-icons-height");
+        });
+    }else{
+        $("#bars").click(function(){
+            $("#nav").removeClass("menu-icons-height");
+        });
+    }
+    
+});
