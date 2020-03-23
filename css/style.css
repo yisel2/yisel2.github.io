@@ -21,7 +21,7 @@ html{
 
 @media(min-width:0px){
     body {
-        background: url("../img/fondo.jpg") no-repeat 16% 90% fixed;
+        background: url("../img/fondo.jpg") no-repeat 16% 100% fixed;
         width: 100%;        
     }
 }
@@ -32,7 +32,16 @@ html{
         width: 100%;
         background-size:cover;
     }
+    
+    .hidden { 
+        opacity: 0; 
+    }
+    
+    .hideme{
+        
+    }
 }
+
 
 .delay-1{
     animation-delay: .2s;
