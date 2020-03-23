@@ -1,4 +1,5 @@
-/* Desktop móbile */
+/* Mobile Version */
+
 @media(min-width:0px){
     
     .about-me-start{
@@ -19,19 +20,10 @@
     .about-me-desc{
         font-size: 16px;
         text-align: justify;
-/*        display: flex;*/
     }
     
     .about-me-desc-col-1, .about-me-desc-col-2{
         width: 100%;
-    }
-    
-    .about-me-desc-col-1{
-/*        margin-right: 20px;*/
-    }
-    
-    .about-me-desc-col-2{
-/*        margin-left: 20px;*/
     }
     
     .about-me-desc p{
@@ -54,24 +46,7 @@
 /* Desktop Version */
 @media(min-width:720px){
     
-    .about-me-start{
-        padding-top: 100px;
-        padding-bottom: 80px;
-        background: #F1F1F1;
-    }
-    
-    .about-me-start .tittle h3, .about-me-start .tittle h5{
-        color: #252627;
-    }    
-    
-    .about-me{
-        margin-top: 100px;     
-        width: 100%;
-    }
-    
     .about-me-desc{
-        font-size: 16px;
-        text-align: justify;
         display: flex;
     }
     
@@ -85,18 +60,6 @@
     
     .about-me-desc-col-2{
         margin-left: 20px;
-    }
-    
-    .about-me-desc p{
-        color: #252627;
-        font-family: "Muli";
-        font-size: 18px;
-        line-height: 30px;
-        
-    }
-    
-    .about-me-desc a{
-        color: #909599;
     }
        
     .about-me-start .separator{

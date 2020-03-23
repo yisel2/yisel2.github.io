@@ -1,4 +1,4 @@
-/* Versión móbil */
+/* Mobile Version */
 
 @media(min-width:0px){
     
@@ -86,32 +86,6 @@
     .bars{
         display: none;
     }
-        
-    .menu{
-        position: static;
-        top: auto;
-        width: 100%;
-        background: #252627;
-        box-shadow: 5px 0px 25px #25262733;
-        z-index: 100;
-        border-bottom: .5px solid #525659cc;
-        -moz-transition: all ease 1s;
-        -ms-transition: all ease 1s;
-        -webkit-transition: all ease 1s;
-        -o-transition: all ease 1s;
-        transition: all ease 1s;
-    }
-    
-    .fixed{  
-        top: 0;
-        left: 0;
-        position: fixed;        
-        -moz-transition: all ease 1s;
-        -ms-transition: all ease 1s;
-        -webkit-transition: all ease 1s;
-        -o-transition: all ease 1s;
-        transition: all ease 1s;
-    }
     
     .menu-icons{
         display: flex;
@@ -119,10 +93,6 @@
         text-align: center;
         align-items: center;
         min-height: 70px;
-    }
-    
-    .menu-icons a{        
-        text-decoration: none;
     }
     
     .nav-a{

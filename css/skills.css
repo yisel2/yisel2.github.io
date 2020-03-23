@@ -1,7 +1,71 @@
+/* Movile Version */
+
+@media(min-width:0px){
+    
+    .skills-start{
+        padding-top: 100px;
+        padding-bottom: 80px;
+        background: #252627;
+    }
+    
+    .skills{
+        margin-top: 100px;
+    }
+    
+    .skill{
+        margin-bottom: 25px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 30px 20px;
+        width: 80%;
+        height: 280px;
+        max-height: 310px;
+        max-width: 100%;
+        border: .5px solid #f1f1f1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .skill-ico{
+        padding-bottom: 10px;
+        font-size: 50px;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
+    
+    .skill-h3, .skill-p{
+        font-family: "Muli";
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
+    
+    .skill-h3{
+        padding-top: 10px; 
+        font-size: 22px;
+    }
+    
+    .skill-p{
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .skill-ico, .skill-h3, .skill-p{
+        color: #f1f1f1;
+    }
+}
+
 /* Desktop Version */
 @media(min-width:720px){
     
-    /* About Me */
     .skills-start{
         padding-top: 100px;
         padding-bottom: 80px;
