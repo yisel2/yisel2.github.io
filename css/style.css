@@ -19,25 +19,20 @@ html{
     color: #fff;
 }
 
-body {
-    background: url("../img/fondo.jpg") no-repeat fixed;
-    width: 100%;
-    background-size:cover;
+@media(min-width:0px){
+    body {
+        background: url("../img/fondo.jpg") no-repeat 50% 0% fixed;
+        width: 100%;        
+    }
 }
 
-/*
-body::-webkit-scrollbar{
-    width: 0.8rem;
+@media(min-width:720px){
+    body {
+        background: url("../img/fondo.jpg") no-repeat fixed;
+        width: 100%;
+        background-size:cover;
+    }
 }
-
-body::-webkit-scrollbar-track{
-    background: #252627;
-}
-
-body::-webkit-scrollbar-thumb{
-    background: #F1F1F1;
-}
-*/
 
 .delay-1{
     animation-delay: .2s;

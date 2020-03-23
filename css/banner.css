@@ -1,19 +1,13 @@
-/* Versión escritorio */
+/* Versión móbil */
 
-@media(min-width:720px){
-    
-    .mobile{
-        display: none;
-    }
-    
-    /* Home */
+@media(min-width:0px){
     
     .banner{
         width: 100%;        
         display: flex;
         align-items: center;
     }
-        
+    
     .display{
         height: 85vh;
         display: flex;
@@ -32,13 +26,33 @@
         border-radius: 50%;
         border: 5px solid #909599;
         margin-bottom: 20px;
-    }   
+    } 
     
     .avatar img{
         width: 100%;
         
-    }   
+    } 
     
+    .display h3{   
+        margin-top: 20px;
+        color: #F1F1F1;
+        font-weight: 400;
+        font-size: 28px;
+    }
+    
+    .subtitle{
+        margin-top: 10px;
+        font-weight: 400;
+        color: #909599;
+        font-size: 16px;
+        font-family: "Muli";
+    }
+}
+
+/* Versión escritorio */
+
+@media(min-width:720px){
+        
     .display h3{   
         margin-top: 20px;
         color: #F1F1F1;

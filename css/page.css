@@ -1,14 +1,37 @@
+/* Versión móbil */
+
+@media(min-width:0px){
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+    
+    .tittle{
+        text-align: center;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #525659;
+    }
+    
+    .tittle h3{
+        font-size: 32px;
+        font-weight: 600;
+        font-family: "Muli";
+        padding-bottom: 5px;
+    }
+    
+    .tittle h5{
+        color: #909599;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Muli";
+    }
+}
 /* Versión escritorio */
 
 @media(min-width:720px){
     
-    .mobile{
-        display: none;
-    }
-    
     .container{
-        margin-left: auto;
-        margin-right: auto;
         width: 80%;
     }
     
