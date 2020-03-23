@@ -19,11 +19,9 @@ html{
     color: #fff;
 }
 
-@media(min-width:0px){
-    body {
-        background: url("../img/fondo.jpg") no-repeat 16% 100% fixed;
-        width: 100%;        
-    }
+body {
+    background: url("../img/fondo.jpg") no-repeat 16% 100% fixed;
+    width: 100%;        
 }
 
 @media(min-width:720px){
