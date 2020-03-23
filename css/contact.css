@@ -1,7 +1,6 @@
-/* Desktop Version */
-@media(min-width:720px){
+/* Mobile Version */
+@media(min-width:0px){
     
-    /* Contact */
     .contact-start{
         padding-top: 100px;
         padding-bottom: 80px;
@@ -15,11 +14,10 @@
     
     .contact{
         margin-top: 100px;
-        display: flex;
     }
     
     .contact-desc{
-        width: 45%;
+        width: 100%;
     }
     
     .contact-desc-tittle h5{
@@ -29,7 +27,7 @@
         font-family: "Muli";
         margin-top: 10px;
         margin-bottom: 15%;
-/*        padding-left: 20px;*/
+        text-align: center;
     }
     
     .contact-desc-tp h5{
@@ -38,7 +36,7 @@
         font-size: 20px;
         font-family: "Muli";
         margin-top: 10px;
-/*        padding-left: 20px;*/
+        text-align: center;
     }
     
     .contact-desc-tp p{
@@ -47,13 +45,14 @@
         color: #909599;
         margin-top: 5px;
         margin-bottom: 10%;
-/*        padding-left: 20px;*/
-    }    
+        text-align: center;
+    }  
     
     .social{
         display: flex;
+        justify-content: center;
         text-align: center;
-        margin-top: 10%;
+        margin-top: 15%;
     }
     
     .social-a{
@@ -63,35 +62,34 @@
         padding: 20px;
         width: 20px;
         border-radius: 5px;
-        -moz-transition: all ease .5s;
-        -ms-transition: all ease .5s;
-        -webkit-transition: all ease .5s;
-        -o-transition: all ease .5s;
-        transition: all ease .5s;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     
-    .fa-facebook-f:hover{
+    .fa-facebook-f{
         background: #4267B2;
-        color: #fff;
     }
     
-    .fa-linkedin-in:hover{
+    .fa-linkedin-in{
         background: #0077B5;
-        color: #fff;
     }
     
-    .fa-whatsapp:hover{
+    .fa-whatsapp{
         background: #00A859;
-        color: #fff;
     }
     
-    .fa-github:hover{
+    .fa-github{
         background: #F1F1F1;
         color: #24292E;
     }
     
+    .contact-mobile{
+        margin-top: 100px;
+    }
+    
     .contact-form{
-        width: 55%;
+        margin-top: 40px;
+        width: 100%;
     }
     
     .contact-form input[type="text"], .contact-form textarea{
@@ -109,7 +107,6 @@
     }
     
     .contact-form input[type="text"]:focus, .contact-form textarea:focus{
-/*        box-shadow: inset 0px 1px 5px #909599;*/
         border-color: #cacaca;
         outline: 0;
     }
@@ -126,6 +123,93 @@
     .submit{
         width: 100%;
         display: flex;
+        justify-content: center;
+    }
+    
+    .contact-form input[type="submit"]{
+        padding: 20px;
+        width: 100%;
+        background: #252627;
+        border: .5px solid #90959999;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+/* Desktop Version */
+@media(min-width:720px){
+    
+    .contact{
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .contact-desc{
+        width: 45%;
+    }
+    
+    .contact-desc-tittle h5{
+        text-align: left;
+    }
+    
+    .contact-desc-tp h5{
+        text-align: left;
+    }
+    
+    .contact-desc-tp p{
+        text-align: left;
+    }    
+    
+    .social{
+        justify-content: flex-start;
+        margin-top: 10%;
+    }
+    
+    .social-a{
+        margin-left: 0px;
+        margin-right: 0px;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -webkit-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+    }
+    
+    .fa-facebook-f, .fa-linkedin-in, .fa-whatsapp, .fa-github{
+        background: none;
+        color: #F1F1F1;
+    }
+    
+    .fa-facebook-f:hover{
+        background: #4267B2;
+        color: #F1F1F1;
+    }
+    
+    .fa-linkedin-in:hover{
+        background: #0077B5;
+        color: #F1F1F1;
+    }
+    
+    .fa-whatsapp:hover{
+        background: #00A859;
+        color: #F1F1F1;
+    }
+    
+    .fa-github:hover{
+        background: #F1F1F1;
+        color: #24292E;
+    }
+    
+    .contact-mobile{
+        display: none;
+    }
+    
+    .contact-form{
+        margin-top: 0px;
+        width: 55%;
+    }
+            
+    .submit{
         justify-content: flex-end;
     }
     

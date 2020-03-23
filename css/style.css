@@ -21,7 +21,7 @@ html{
 
 @media(min-width:0px){
     body {
-        background: url("../img/fondo.jpg") no-repeat 50% 0% fixed;
+        background: url("../img/fondo.jpg") no-repeat 16% 90% fixed;
         width: 100%;        
     }
 }

@@ -1,7 +1,5 @@
-/* Desktop Version */
-@media(min-width:720px){
-    
-    /* Footer */
+/* Mobile Version */
+@media(min-width:0px){
     
     .footer-start{
         background: #252627;

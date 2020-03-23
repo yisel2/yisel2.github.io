@@ -44,6 +44,7 @@
 }
 
 /* Desktop Version */
+
 @media(min-width:720px){
     
     .about-me-desc{
@@ -60,9 +61,5 @@
     
     .about-me-desc-col-2{
         margin-left: 20px;
-    }
-       
-    .about-me-start .separator{
-        background: #F1F1F1;        
     }
 }
